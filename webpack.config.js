@@ -47,6 +47,9 @@ const commonConfig = {
       },
     ],
   },
+  externals: {
+    'node-hid': 'commonjs node-hid',
+  },
 };
 // #endregion
 
