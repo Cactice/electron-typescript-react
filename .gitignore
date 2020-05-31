@@ -39,6 +39,7 @@ app/bundle.js.map
 app/style.css
 app/style.css.map
 dist
+out/
 main.js
 main.js.map
 

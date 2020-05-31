@@ -29,8 +29,14 @@
     "react/jsx-no-bind": false
   },
   "plugins": [
+    "@typescript-eslint",
     "import"
   ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
   "settings": {
     "import/resolver": "webpack"
   }
